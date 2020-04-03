@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Pages;
 
 use App\Http\Controllers\Controller;
 use App\Models\Section;
+use custom\documents\DocShow;
 use Illuminate\Http\Request;
 
 class PageController extends Controller
@@ -14,9 +15,20 @@ class PageController extends Controller
         $this->section = Section::guests()->sectionByName($section)->first();
 
         if($this->section != null) {
-            $template = $this->section->template;
+            $view = $this->section->view;
 
-            return view($this->section->view, compact(['template']));
+            $docShow = new DocShow();
+            $docShow->loadConfig($this->section->template);
+            $docShow->render();
+            $contents = $docShow->getContents();
+            $docShow->__destruct();
+
+            unset($docShow);
+
+            return view($this->section->template, compact([
+                'view',
+                'contents'
+            ]));
         }
 
         abort(404);

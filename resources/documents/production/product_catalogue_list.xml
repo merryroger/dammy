@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/</docuri>
+    <returi>/</returi>
+    <docref>/</docref>
+    <doctopic>Продукция</doctopic>
+    <docname>Весь спектр полиграфической продукции в Кургане</docname>
+    <doctype>Text</doctype>
+    <docdate>03.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <article>
+        <h1>Весь спектр полиграфической продукции в&nbsp;Кургане</h1>
+        <nav>
+            <span>
+                <a href="/printing">Печать</a>
+                <div class="blk">
+                    <p>Цифровая</p>
+                    <p>Офсетная</p>
+                    <p>Инженерно-техническая</p>
+                    <p>Тиражирование</p>
+                    <p>Постпечатная обработка</p>
+                </div>
+            </span>
+            <span>
+                <a href="/advert_making">Производство рекламы</a>
+                <div class="blk">
+                    <p>Наружная реклама</p>
+                    <p>Широкоформатная печать</p>
+                    <p>Интерьерная печать</p>
+                    <p>Ультрафиолетовая печать</p>
+                    <p>Постпечатная обработка</p>
+                </div>
+            </span>
+            <span>
+                <a href="/book_printing">Изготовление книг</a>
+            </span>
+            <span>
+                <a href="/souvenirs">Сувенирная продукция</a>
+                <div class="blk">
+                    <p>Для бизнеса</p>
+                    <p>Промо-сувениры</p>
+                </div>
+            </span>
+        </nav>
+    </article>
+</page>

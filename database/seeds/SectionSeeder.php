@@ -16,7 +16,7 @@ class SectionSeeder extends Seeder
             'name' => '__root__',
             'role' => 'guest',
             'gen_view' => 'default',
-            'template' => 'homepage',
+            'template' => 'templates.guest.homepage',
             'created_at' => now(),
             'updated_at' => now()
         ], [
