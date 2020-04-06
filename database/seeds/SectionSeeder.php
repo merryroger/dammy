@@ -12,15 +12,19 @@ class SectionSeeder extends Seeder
      */
     public function run()
     {
-        Facades\DB::table('sections')->insert([
-            'name' => '__root__',
-            'role' => 'guest',
-            'gen_view' => 'default',
-            'template' => 'templates.guest.homepage',
-            'created_at' => now(),
-            'updated_at' => now()
-        ], [
+        $data = [
+            [
+                'name' => '__root__',
+                'role' => 'guest',
+                'gen_view' => 'default',
+                'template' => 'templates.guest.homepage',
+                'created_at' => now(),
+                'updated_at' => now()
+            ]
+        ];
 
-        ]);
+        foreach ($data as $portion) {
+            Facades\DB::table('sections')->insert($portion);
+        }
     }
 }

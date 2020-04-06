@@ -1,9 +1,7 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Ehwaz Raido
+ * Created by Merry Roger.
  * Date: 03.04.2020
- * Time: 9:34
  */
 
 namespace custom\documents;
@@ -29,7 +27,7 @@ class DocShow
         $this->contents = '';
     }
 
-    public function loadConfig($conf_path = ''): void
+    protected function loadConfig($conf_path = ''): void
     {
         if ($conf_path) {
             $config_path = $this->base_dir . '/' . join('/', preg_split("%\.%", $conf_path)) . '.inc';
@@ -44,7 +42,7 @@ class DocShow
 
     }
 
-    public function render($page = 1): void
+    protected function render($page = 1): void
     {
         $attr = '';
         $src = $this::DUMMY_DOC;
@@ -75,8 +73,11 @@ class DocShow
         unset($tyrion, $blocks);
     }
 
-    public function getContents(): string
+    public function retrieveContents($conf_path = '', $page = 1): string
     {
+        $this->loadConfig($conf_path);
+        $this->render($page);
+
         return $this->contents;
     }
 

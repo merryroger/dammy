@@ -31,30 +31,18 @@
         </section>
         <section class="foot__pair navigation">
             <nav class="footer">
-                <nav class="foot__menu">
-                    <h6>Карта сайта</h6>
-                    <a href="#about">О компании</a>
-                    <a href="/offices">Филиалы</a>
-                    <a href="/contacts">Контактная информация</a>
-                    <a href="/make_order">Сделать заказ</a>
-                </nav>
-                <nav class="foot__menu">
-                    <h6>Каталог продукции</h6>
-                    <a href="/printing">Печать</a>
-                    <a href="/advert_making">Производство рекламы</a>
-                    <a href="/book_printing">Изготовление книг</a>
-                    <a href="/souvenirs">Сувенирная продукция</a>
-                </nav>
-                <nav class="foot__menu">
-                    <h6>Требования к макетам</h6>
-                    <a href="/requirements#uv">Для печати изображений и&nbsp;широкоформатной печати</a>
-                    <a href="/requirements#ofset">Для офсетной печати</a>
-                </nav>
-                <nav class="foot__menu">
-                    <h6>Дополнительно</h6>
-                    <a href="/news">Новости</a>
-                    <a href="/equipment">Обзор оборудования</a>
-                </nav>
+                @foreach($menu as $mgroupkey => $menugroup)
+                    <nav class="foot__menu">
+                        <h6>{{ @trans("menu.$mgroupkey") }}</h6>
+                        @foreach($menugroup as $item)
+                            @if(!strcmp($item['mnemo'], 'regime'))
+                                @continue
+                            @endif
+
+                            <a href="{{ $item['url'] }}">{!! @trans("menu.$item[mnemo]") !!}</a>
+                        @endforeach
+                    </nav>
+                @endforeach
             </nav>
             <nav class="footer">
                 <nav class="foot__menu go__top">
