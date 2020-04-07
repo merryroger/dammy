@@ -7,6 +7,7 @@ use App\Models\Menuitem;
 use App\Models\Section;
 use custom\documents\DocShow;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 
 class PageController extends Controller
 {
@@ -17,7 +18,9 @@ class PageController extends Controller
         $this->section = Section::guests()->sectionByName($section)->first();
 
         if ($this->section != null) {
+
             $view = $this->section->view;
+            $section_id = $this->section->id;
 
             $menu_access_group = $this->section->retrieveAccessGroup();
 
@@ -32,10 +35,11 @@ class PageController extends Controller
 
             unset($docShow);
 
-            return view($this->section->template, compact([
+            return view($this->section->entry_point, compact([
                 'view',
                 'menu',
-                'contents'
+                'contents',
+                'section_id'
             ]));
         }
 

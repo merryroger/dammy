@@ -1,0 +1,34 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/contacts</docuri>
+    <returi>/contacts</returi>
+    <docref>/contacts#central</docref>
+    <doctopic>Контактная информация</doctopic>
+    <docname>Печатный двор</docname>
+    <doctype>Text</doctype>
+    <docdate>07.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <a name="other" class="inv"></a>
+    <a name="print_yard" class="inv"></a>
+    <h1>Печатный двор</h1>
+    <section class="office">
+        <div id="print_yard" class="map"></div>
+        <section class="columns">
+            <article class="one__of">
+                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;Гоголя,&nbsp;16.</p>
+                <p>Телефоны: +7&nbsp;(3522)&nbsp;225-571 и&nbsp;+7&nbsp;(3522)&nbsp;225-572.</p>
+                <p>Адрес электронной почты: <a href="mailto:pd@pechat45.ru">pd@pechat45.ru</a>.</p>
+            </article>
+            <article class="one__of">
+                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
+                <p>Выходные: суббота, воскресенье.</p>
+                <p>Проезд до&nbsp;остановки „Гостиница «Москва»“.</p>
+            </article>
+        </section>
+    </section>
+</page>

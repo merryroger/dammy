@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/contacts</docuri>
+    <returi>/contacts</returi>
+    <docref>/contacts#central</docref>
+    <doctopic>Контактная информация</doctopic>
+    <docname>Дом печати</docname>
+    <doctype>Text</doctype>
+    <docdate>07.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <a name="print_house" class="inv"></a>
+    <h1>Дом печати</h1>
+    <section class="office">
+        <div id="print_house" class="map"></div>
+        <section class="columns">
+            <article class="one__of">
+                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;Гоголя,&nbsp;87.</p>
+                <p>Телефоны: +7&nbsp;(3522)&nbsp;600-590 и&nbsp;+7&nbsp;(3522)&nbsp;600-591.</p>
+                <p>Адрес электронной почты: <a href="mailto:dp@pechat45.ru">dp@pechat45.ru</a>.</p>
+            </article>
+            <article class="one__of">
+                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
+                <p>Выходные: суббота, воскресенье.</p>
+                <p>Проезд до&nbsp;остановки «Драмтеатр».</p>
+            </article>
+        </section>
+    </section>
+</page>

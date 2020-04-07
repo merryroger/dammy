@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/contacts</docuri>
+    <returi>/contacts</returi>
+    <docref>/contacts#central</docref>
+    <doctopic>Контактная информация</doctopic>
+    <docname>Центральный офис</docname>
+    <doctype>Text</doctype>
+    <docdate>07.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <a name="central" class="inv"></a>
+    <h1>Центральный офис</h1>
+    <section class="office">
+        <div id="central_office" class="map"></div>
+        <section class="columns">
+            <article class="one__of">
+                <p>Адрес: г.&nbsp;Курган, проспект Машиностроителей,&nbsp;13A.</p>
+                <p>Телефоны: +7&nbsp;(3522)&nbsp;255-540 и&nbsp;+7&nbsp;(3522)&nbsp;255-545.</p>
+                <p>Адрес электронной почты: <a href="mailto:dammy@dammy.ru">dammy@dammy.ru</a>.</p>
+            </article>
+            <article class="one__of">
+                <p>Режим работы: c&nbsp;8-00 до&nbsp;17-00.</p>
+                <p>Выходные: суббота, воскресенье.</p>
+                <p>Проезд до&nbsp;остановки „Спорткомплекс «Зауралец»“.</p>
+            </article>
+        </section>
+    </section>
+</page>

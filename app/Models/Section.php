@@ -47,6 +47,11 @@ class Section extends Model
         return $query->where('name', $name);
     }
 
+    public function getEntrypointAttribute()
+    {
+        return $this->getAttributes()['entry_point'];
+    }
+
     public function getTemplateAttribute()
     {
         return $this->getAttributes()['template'];

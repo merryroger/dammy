@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/contacts</docuri>
+    <returi>/contacts</returi>
+    <docref>/contacts#central</docref>
+    <doctopic>Контактная информация</doctopic>
+    <docname>Печатный мир</docname>
+    <doctype>Text</doctype>
+    <docdate>07.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <a name="print_world" class="inv"></a>
+    <h1>Печатный мир</h1>
+    <section class="office">
+        <div id="print_world" class="map"></div>
+        <section class="columns">
+            <article class="one__of">
+                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;К.&nbsp;Мяготина,&nbsp;91a.</p>
+                <p>Телефоны: +7&nbsp;(3522)&nbsp;600-593 и&nbsp;+7&nbsp;(3522)&nbsp;600-594.</p>
+                <p>Адрес электронной почты: <a href="mailto:pm@pechat45.ru">pm@pechat45.ru</a>.</p>
+            </article>
+            <article class="one__of">
+                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
+                <p>Выходные: суббота, воскресенье.</p>
+            </article>
+        </section>
+    </section>
+</page>

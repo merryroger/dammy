@@ -17,6 +17,7 @@ class CreateSectionsTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->enum('role', ['admin', 'user', 'guest'])->default('guest');
+            $table->string('entry_point')->default('');
             $table->string('gen_view')->default('');
             $table->string('template')->default('');
             $table->boolean('hidden')->default(false);

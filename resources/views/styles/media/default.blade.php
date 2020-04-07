@@ -56,7 +56,7 @@
         font-size: 11pt;
     }
 
-    .menu a {
+    .menu * {
         font-size: 19pt;
     }
 
@@ -176,7 +176,7 @@
         font-size: 11pt;
     }
 
-    .menu a {
+    .menu * {
         font-size: 17pt;
     }
 
@@ -294,7 +294,7 @@
         font-size: 10pt;
     }
 
-    .menu a {
+    .menu * {
         font-size: 14pt;
     }
 
@@ -424,7 +424,7 @@
         flex-direction: column;
     }
 
-    .menu a {
+    .menu * {
         font-size: 14pt;
     }
 

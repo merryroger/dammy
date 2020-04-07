@@ -22,7 +22,7 @@ class MenuitemSeeder extends Seeder
                 'order' => 1,
                 'purpose' => 'main',
                 'mnemo' => 'about',
-                'url' => '#about',
+                'url' => '/#about',
                 'section_id' => 1,
                 'created_at' => now(),
                 'updated_at' => now()
@@ -37,7 +37,7 @@ class MenuitemSeeder extends Seeder
                 'purpose' => 'main',
                 'mnemo' => 'offices',
                 'url' => '/offices',
-                'section_id' => null,
+                'section_id' => 2,
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -51,7 +51,7 @@ class MenuitemSeeder extends Seeder
                 'purpose' => 'main',
                 'mnemo' => 'contacts',
                 'url' => '/contacts',
-                'section_id' => null,
+                'section_id' => 3,
                 'created_at' => now(),
                 'updated_at' => now()
             ],

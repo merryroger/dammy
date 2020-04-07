@@ -122,6 +122,11 @@ section.site__header {
     display: flex;
 }
 
+a.go__home {
+    border-width: 0;
+    text-decoration: none;
+}
+
 div.header {
     padding: 20px;
     text-align: right;
@@ -146,6 +151,12 @@ nav.menu {
     text-decoration: none;
     border-bottom: 1px solid #cccccc;
 }
+
+.menu p {
+    margin: 0 20pt;
+    color: #444444;
+}
+
 /* End of title and main menu */
 
 /* Page`s body */
@@ -237,6 +248,10 @@ div.footer {
 
 .foot__menu dl {
     color: #aabbcc;
+}
+
+.foot__menu dt {
+    color: #ffcc66;
 }
 
 .foot__menu dd {

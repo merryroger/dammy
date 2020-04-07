@@ -42,7 +42,8 @@ class Menuitem extends Model
                 'parent' => $item->parent,
                 'mnemo' => $item->mnemo,
                 'url' => $item->url,
-                'hidden' => $item->hidden
+                'hidden' => $item->hidden,
+                'section_id' => $item->section_id
             ];
 
             return $carry;

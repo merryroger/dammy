@@ -59,7 +59,10 @@ class DocShow
         for ($block = 0; $block < $this->config['blocks']; $block++) {
             $tag = ($this->config['tags'][$block]) ? $this->config['tags'][$block] : 'section';
             $attr = ($this->config['attributes'][$block]) ? $this->config['attributes'][$block] : $attr;
+
             $src = ($this->config['sources'][$block]) ? $this->config['sources'][$block] : $src;
+            $src = (!file_exists($this->base_dir .'/'. $src)) ? $this::DUMMY_DOC : $src;
+
             $xslt = (isset($this->config['xslt']) && isset($this->config['xslt'][$block])) ? $this->config['xslt'][$block] : [];
 
             $tyrion->loadDocument($src, $this->base_dir, $page, $xslt);

@@ -1,0 +1,32 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/contacts</docuri>
+    <returi>/contacts</returi>
+    <docref>/contacts#central</docref>
+    <doctopic>Контактная информация</doctopic>
+    <docname>Печатник</docname>
+    <doctype>Text</doctype>
+    <docdate>07.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <a name="pechatnik" class="inv"></a>
+    <h1>Печатник</h1>
+    <section class="office">
+        <div id="pechatnik" class="map"></div>
+        <section class="columns">
+            <article class="one__of">
+                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;М.&nbsp;Горького,&nbsp;138/1.</p>
+                <p>Телефон: +7&nbsp;(3522)&nbsp;601-572.</p>
+                <p>Адрес электронной почты: <a href="mailto:pk@pechat45.ru">pk@pechat45.ru</a>.</p>
+            </article>
+            <article class="one__of">
+                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
+                <p>Выходные: суббота, воскресенье.</p>
+            </article>
+        </section>
+    </section>
+</page>
