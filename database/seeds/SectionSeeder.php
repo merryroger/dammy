@@ -26,7 +26,7 @@ class SectionSeeder extends Seeder
                 'name' => 'offices',
                 'role' => 'guest',
                 'entry_point' => 'templates.guest.default',
-                'gen_view' => 'subpage',
+                'gen_view' => 'offices', // "subpage" as default value
                 'template' => 'templates.guest.offices',
                 'created_at' => now(),
                 'updated_at' => now()

@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
 <parameters>
     <docdtd>tyrion-xml-metadoc</docdtd>
-    <docuri>/contacts</docuri>
+    <docuri>/contacts#pechatnik</docuri>
     <returi>/contacts</returi>
-    <docref>/contacts#central</docref>
+    <docref>/contacts#pechatnik</docref>
     <doctopic>Контактная информация</doctopic>
     <docname>Печатник</docname>
     <doctype>Text</doctype>
@@ -14,19 +14,24 @@
 <docheader> </docheader>
 <page number="1">
     <a name="pechatnik" class="inv"></a>
-    <h1>Печатник</h1>
+    <div id="pechatnik" class="map"></div>
     <section class="office">
-        <div id="pechatnik" class="map"></div>
+        <aside class="info__hdr">
+            <div id="tp_logo" class="logo"></div>
+            <h3><a href="/offices/typographer" class="info__header">Печатник</a></h3>
+        </aside>
         <section class="columns">
-            <article class="one__of">
-                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;М.&nbsp;Горького,&nbsp;138/1.</p>
-                <p>Телефон: +7&nbsp;(3522)&nbsp;601-572.</p>
+            <article class="info__col">
+                <p>Адрес: <span>г.&nbsp;Курган, ул.&nbsp;М.&nbsp;Горького,&nbsp;138/1</span>.</p>
+                <p>Режим работы: <span>c&nbsp;9-00 до&nbsp;18-00</span>.</p>
+                <p>Выходные: <span>суббота, воскресенье</span>.</p>
+            </article>
+            <article class="info__col">
+                <p>Телефон: <span>+7&nbsp;(3522)&nbsp;601-572</span>.</p>
                 <p>Адрес электронной почты: <a href="mailto:pk@pechat45.ru">pk@pechat45.ru</a>.</p>
             </article>
-            <article class="one__of">
-                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
-                <p>Выходные: суббота, воскресенье.</p>
-            </article>
         </section>
+        <h6 class="info__col">&nbsp;</h6>
+        <!--<h6 class="info__col">↑&nbsp;<a href="#top">Наверх</a></h6>-->
     </section>
 </page>

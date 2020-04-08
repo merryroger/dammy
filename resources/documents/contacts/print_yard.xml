@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
 <parameters>
     <docdtd>tyrion-xml-metadoc</docdtd>
-    <docuri>/contacts</docuri>
+    <docuri>/contacts#print_yard</docuri>
     <returi>/contacts</returi>
-    <docref>/contacts#central</docref>
+    <docref>/contacts#print_yard</docref>
     <doctopic>Контактная информация</doctopic>
     <docname>Печатный двор</docname>
     <doctype>Text</doctype>
@@ -15,20 +15,24 @@
 <page number="1">
     <a name="other" class="inv"></a>
     <a name="print_yard" class="inv"></a>
-    <h1>Печатный двор</h1>
+    <div id="print_yard" class="map"></div>
     <section class="office">
-        <div id="print_yard" class="map"></div>
+        <aside class="info__hdr">
+            <div id="py_logo" class="logo"></div>
+            <h3><a href="/offices/yard" class="info__header">Печатный двор</a></h3>
+        </aside>
         <section class="columns">
-            <article class="one__of">
-                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;Гоголя,&nbsp;16.</p>
-                <p>Телефоны: +7&nbsp;(3522)&nbsp;225-571 и&nbsp;+7&nbsp;(3522)&nbsp;225-572.</p>
-                <p>Адрес электронной почты: <a href="mailto:pd@pechat45.ru">pd@pechat45.ru</a>.</p>
+            <article class="info__col">
+                <p>Адрес: <span>г.&nbsp;Курган, ул.&nbsp;Гоголя,&nbsp;16</span>.</p>
+                <p>Режим работы: <span>c&nbsp;9-00 до&nbsp;18-00</span>.</p>
+                <p>Выходные: <span>суббота, воскресенье</span>.</p>
             </article>
-            <article class="one__of">
-                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
-                <p>Выходные: суббота, воскресенье.</p>
-                <p>Проезд до&nbsp;остановки „Гостиница «Москва»“.</p>
+            <article class="info__col">
+                <p>Телефоны: <span>+7&nbsp;(3522)&nbsp;225-571</span> и&nbsp;<span>+7&nbsp;(3522)&nbsp;225-572</span>.</p>
+                <p>Адрес электронной почты: <a href="mailto:pd@pechat45.ru">pd@pechat45.ru</a>.</p>
+                <p>Проезд до&nbsp;остановки <span>„Гостиница «Москва»“</span>.</p>
             </article>
         </section>
+        <h6 class="info__col">↑&nbsp;<a href="#top">Наверх</a></h6>
     </section>
 </page>

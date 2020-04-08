@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/offices</docuri>
+    <returi>/offices</returi>
+    <docref>/offices</docref>
+    <doctopic>Филиалы</doctopic>
+    <docname>Список филиалов</docname>
+    <doctype>Text</doctype>
+    <docdate>08.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+    <nav class="office__list">
+        <div id="py_logo" class="logo" onclick="location.assign('/offices/yard')">
+            <a href="/offices/yard" class="office__anchor">Печатный двор</a>
+        </div>
+        <div id="ph_logo" class="logo" onclick="location.assign('/offices/house')">
+            <a href="/offices/house" class="office__anchor">Дом печати</a>
+        </div>
+        <div id="pw_logo" class="logo" onclick="location.assign('/offices/world')">
+            <a href="/offices/world" class="office__anchor">Печатный мир</a>
+        </div>
+        <div id="tp_logo" class="logo" onclick="location.assign('/offices/typographer')">
+            <a href="/offices/typographer" class="office__anchor">Печатник</a>
+        </div>
+    </nav>
+</page>

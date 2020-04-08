@@ -7,11 +7,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
     <style>
-        @include('styles/fonts')
-        @include('styles/media/default')@include('styles/media/contacts')
-        @include('styles/contacts')@include('styles/default')
+        @include('styles.fonts')
+        @include('styles/media/default')
+        @include('styles/offices')@include('styles/default')
     </style>
-    <script src="/scripts/office_maps.js"></script>
 </head>
 <body>
     <a name="top"></a>

@@ -10,7 +10,7 @@ function loadForeignScript(fs) {
 }
 
 function init1() {
-        let mainMap = new ymaps.Map("central_office", { center: [55.458398, 65.334739], zoom: 17, controls: ['zoomControl', 'typeSelector',  'fullscreenControl']});
+        let mainMap = new ymaps.Map("central_office", { center: [55.458398, 65.334739], zoom: 17, controls: ['zoomControl', 'typeSelector'/*,  'fullscreenControl'*/]});
         let myPlacemark = new ymaps.Placemark([55.458398, 65.334739], { hintContent: 'Центральный офис «ДАММИ»', balloonContent: 'Центральный офис «ДАММИ»' });
         mainMap.geoObjects.add(myPlacemark);
 

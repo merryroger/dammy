@@ -5,21 +5,18 @@
  */
 
 $this->config = [
-/*    'blocks' => 3,
+    'blocks' => 2,
     'tags' => [
-        'section',
         'section',
         'section'
     ],
     'attributes' => [
         ' class="body announce"',
-        ' class="body orders"',
         ' class="body about"'
     ],
     'sources' => [
-        'documents/production/product_catalogue_list.xml',
-        'documents/orders/make_orders.xml',
-        'documents/dammy/about.xml'
+        'documents/offices/offices.xml',
+        'documents/offices/review.xml'
     ],
     /* It should be used if it`s need to show these elements with determined decoration
     'xslt' => [

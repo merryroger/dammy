@@ -15,10 +15,10 @@ $this->config = [
     ],
     'attributes' => [
         ' class="body info"',
-        ' class="body about"',
-        ' class="body about"',
-        ' class="body about"',
-        ' class="body about"'
+        ' class="body info"',
+        ' class="body info"',
+        ' class="body info"',
+        ' class="body info"'
     ],
     'sources' => [
         'documents/contacts/central.xml',

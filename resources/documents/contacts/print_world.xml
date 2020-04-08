@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
 <parameters>
     <docdtd>tyrion-xml-metadoc</docdtd>
-    <docuri>/contacts</docuri>
+    <docuri>/contacts#print_world</docuri>
     <returi>/contacts</returi>
-    <docref>/contacts#central</docref>
+    <docref>/contacts#print_world</docref>
     <doctopic>Контактная информация</doctopic>
     <docname>Печатный мир</docname>
     <doctype>Text</doctype>
@@ -14,19 +14,23 @@
 <docheader> </docheader>
 <page number="1">
     <a name="print_world" class="inv"></a>
-    <h1>Печатный мир</h1>
+    <div id="print_world" class="map"></div>
     <section class="office">
-        <div id="print_world" class="map"></div>
+        <aside class="info__hdr">
+            <div id="pw_logo" class="logo"></div>
+            <h3><a href="/offices/world" class="info__header">Печатный мир</a></h3>
+        </aside>
         <section class="columns">
-            <article class="one__of">
-                <p>Адрес: г.&nbsp;Курган, ул.&nbsp;К.&nbsp;Мяготина,&nbsp;91a.</p>
-                <p>Телефоны: +7&nbsp;(3522)&nbsp;600-593 и&nbsp;+7&nbsp;(3522)&nbsp;600-594.</p>
+            <article class="info__col">
+                <p>Адрес: <span>г.&nbsp;Курган, ул.&nbsp;К.&nbsp;Мяготина,&nbsp;91a</span>.</p>
+                <p>Режим работы: <span>c&nbsp;9-00 до&nbsp;18-00</span>.</p>
+                <p>Выходные: <span>суббота, воскресенье</span>.</p>
+            </article>
+            <article class="info__col">
+                <p>Телефоны: <span>+7&nbsp;(3522)&nbsp;600-593</span> и&nbsp;<span>+7&nbsp;(3522)&nbsp;600-594</span>.</p>
                 <p>Адрес электронной почты: <a href="mailto:pm@pechat45.ru">pm@pechat45.ru</a>.</p>
             </article>
-            <article class="one__of">
-                <p>Режим работы: c&nbsp;9-00 до&nbsp;18-00.</p>
-                <p>Выходные: суббота, воскресенье.</p>
-            </article>
         </section>
+        <h6 class="info__col">↑&nbsp;<a href="#top">Наверх</a></h6>
     </section>
 </page>
