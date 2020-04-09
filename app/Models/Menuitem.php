@@ -28,9 +28,21 @@ class Menuitem extends Model
         return $query->where('access_group_id', $access_group)->orderBy('order');
     }
 
+    public function scopeItemById($query, $_id)
+    {
+        return $query->whereId($_id);
+    }
+
+    public function scopeItemBySection($query, $section_id)
+    {
+        return $query->where('section_id', $section_id);
+    }
+
     public function buildMenu($menuset)
     {
-        return $menuset->reduce(function ($carry, $item) {
+        $ms = $menuset->where('hidden', 0);
+
+        return $ms->reduce(function ($carry, $item) {
             if (!$carry)
                 $carry = [];
 
@@ -48,6 +60,22 @@ class Menuitem extends Model
 
             return $carry;
         });
+    }
+
+    public function buildHierarchy($menuset, $section_id)
+    {
+        $items = [];
+        $except = ['access_group_id', 'order', 'off', 'created_at', 'updated_at'];
+        $item = $menuset->where('section_id', $section_id)->first();
+
+        while ($item) {
+            $items[$item->level] = collect($item->getAttributes())->except($except)->toArray();
+            $item = $menuset->where('id', $item->parent)->first();
+        }
+
+        ksort($items);
+
+        return $items;
     }
 
 }

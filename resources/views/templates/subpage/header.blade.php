@@ -25,13 +25,13 @@
                 </div>
             </a>
             <nav class="menu">
-                @foreach($menu['main'] as $item)
-                    @if($item['section_id'] == $section_id)
-                        <p>{{ @trans("menu.$item[mnemo]") }}</p>
-                    @else
-                        <a href="{{ $item['url'] }}">{{ @trans("menu.$item[mnemo]") }}</a>
-                    @endif
-                @endforeach
+                @switch(Route::currentRouteName())
+                    @case('guest.lvl2.offices')
+                        @include('templates.menu.main.offices')
+                    @break
+                    @default
+                        @include('templates.menu.main.default')
+                @endswitch
             </nav>
         </article>
     </section>

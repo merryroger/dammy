@@ -15,20 +15,36 @@ class PageController extends Controller
 
     public function showSections(Request $request, $section = '__root__')
     {
-        $this->section = Section::guests()->sectionByName($section)->first();
+        $this->section = $this->getSection($section, true);
+        return $this->render();
+    }
 
+    public function showOffice(Request $request, $subsection = '')
+    {
+        return $this->showSections($request, "offices.{$subsection}");
+    }
+
+    private function getSection($name, $include_hidden = false)
+    {
+        return Section::guests($include_hidden)->sectionByName($name)->first();
+    }
+
+    private function render()
+    {
         if ($this->section != null) {
 
             $view = $this->section->view;
             $section_id = $this->section->id;
 
+            /* Menu operations */
             $menu_access_group = $this->section->retrieveAccessGroup();
-
-            $menuset = Menuitem::access_Group($menu_access_group)->validItems()->get();
+            $menuset = Menuitem::access_Group($menu_access_group)->validItems(true)->get();
 
             $menuitem = new Menuitem();
             $menu = $menuitem->buildMenu($menuset);
+            $section_ids = $menuitem->buildHierarchy($menuitem, $section_id);
 
+            /* Section content retrieving */
             $docShow = new DocShow();
             $contents = $docShow->retrieveContents($this->section->template);
             $docShow->__destruct();
@@ -39,12 +55,11 @@ class PageController extends Controller
                 'view',
                 'menu',
                 'contents',
-                'section_id'
+                'section_ids'
             ]));
         }
 
         abort(404);
     }
-
 
 }

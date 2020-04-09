@@ -30,7 +30,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 2,
-                'mode' => 1,
+                'mode' => 2,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 2,
@@ -44,21 +44,21 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 3,
-                'mode' => 1,
+                'mode' => 3,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 3,
                 'purpose' => 'main',
                 'mnemo' => 'contacts',
                 'url' => '/contacts',
-                'section_id' => 3,
+                'section_id' => 7,
                 'created_at' => now(),
                 'updated_at' => now()
             ],
             [
                 'access_group_id' => 0,
                 'node' => 4,
-                'mode' => 1,
+                'mode' => 4,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 4,
@@ -72,7 +72,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 5,
-                'mode' => 1,
+                'mode' => 5,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 5,
@@ -86,7 +86,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 6,
-                'mode' => 1,
+                'mode' => 6,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 6,
@@ -100,7 +100,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 7,
-                'mode' => 1,
+                'mode' => 7,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 7,
@@ -114,7 +114,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 8,
-                'mode' => 1,
+                'mode' => 8,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 8,
@@ -128,7 +128,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 9,
-                'mode' => 1,
+                'mode' => 9,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 9,
@@ -142,7 +142,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 10,
-                'mode' => 1,
+                'mode' => 10,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 10,
@@ -156,7 +156,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 11,
-                'mode' => 1,
+                'mode' => 11,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 11,
@@ -170,7 +170,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 12,
-                'mode' => 1,
+                'mode' => 12,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 12,
@@ -184,7 +184,7 @@ class MenuitemSeeder extends Seeder
             [
                 'access_group_id' => 0,
                 'node' => 13,
-                'mode' => 1,
+                'mode' => 13,
                 'level' => 0,
                 'parent' => 0,
                 'order' => 13,
@@ -194,7 +194,64 @@ class MenuitemSeeder extends Seeder
                 'section_id' => null,
                 'created_at' => now(),
                 'updated_at' => now()
+            ],
+            [
+                'access_group_id' => 0,
+                'node' => 2,
+                'mode' => 1,
+                'level' => 1,
+                'parent' => 2,
+                'order' => 1,
+                'purpose' => 'offices',
+                'mnemo' => 'offices.yard',
+                'url' => '/offices/yard',
+                'section_id' => 3,
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'access_group_id' => 0,
+                'node' => 2,
+                'mode' => 2,
+                'level' => 1,
+                'parent' => 2,
+                'order' => 2,
+                'purpose' => 'offices',
+                'mnemo' => 'offices.house',
+                'url' => '/offices/house',
+                'section_id' => 4,
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'access_group_id' => 0,
+                'node' => 2,
+                'mode' => 3,
+                'level' => 1,
+                'parent' => 2,
+                'order' => 3,
+                'purpose' => 'offices',
+                'mnemo' => 'offices.world',
+                'url' => '/offices/world',
+                'section_id' => 5,
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'access_group_id' => 0,
+                'node' => 2,
+                'mode' => 4,
+                'level' => 1,
+                'parent' => 2,
+                'order' => 4,
+                'purpose' => 'offices',
+                'mnemo' => 'offices.typographer',
+                'url' => '/offices/typographer',
+                'section_id' => 6,
+                'created_at' => now(),
+                'updated_at' => now()
             ]
+
         ];
 
         foreach ($data as $portion) {

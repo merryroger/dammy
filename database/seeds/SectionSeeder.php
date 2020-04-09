@@ -32,6 +32,42 @@ class SectionSeeder extends Seeder
                 'updated_at' => now()
             ],
             [
+                'name' => 'offices.yard',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'offices',
+                'template' => 'templates.guest.offices.yard',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'name' => 'offices.house',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'offices',
+                'template' => 'templates.guest.offices.house',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'name' => 'offices.world',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'offices',
+                'template' => 'templates.guest.offices.world',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'name' => 'offices.typographer',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'offices',
+                'template' => 'templates.guest.offices.typographer',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
                 'name' => 'contacts',
                 'role' => 'guest',
                 'entry_point' => 'templates.guest.default',

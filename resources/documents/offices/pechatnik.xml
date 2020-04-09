@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/offices/typographer</docuri>
+    <returi>/offices</returi>
+    <docref>m2:6</docref>
+    <doctopic>Филиалы</doctopic>
+    <docname>Филиалы «Печатник»</docname>
+    <doctype>Text</doctype>
+    <docdate>09.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+<h1>«Печатник»</h1>
+<div id="tp_logo" class="logo"></div>
+<section class="columns">
+    <article class="one__of">
+        <p>«Печатник»&nbsp;— это самый новый филиал Типографии «ДАММИ», который открылся 26&nbsp;марта 2020&nbsp;года.
+            Он <a href="/contacts#pechatnik">располагается</a> вблизи зданий Художественного салона, Областной налоговой
+            инспекции и&nbsp;Центрального рынка.
+        </p>
+    </article>
+    <article class="one__of">
+        <p>Здесь можно заказать разработку дизайна продукции и&nbsp;выполнить ксерокопирование, цветное и&nbsp;черно-белое
+            сканирование и&nbsp;печать. Кроме этого выполняются цифровая широкоформатная печать и&nbsp;ризография.
+        </p>
+    </article>
+</section>
+<section class="other__offices">
+    <h2>Другие филиалы «ДАММИ»</h2>
+    <section class="others">
+        <!--<nav class="office__list">-->
+            <div id="py_logo" class="small_logo ptr" onclick="location.assign('/offices/yard')">
+                <a href="/offices/yard" class="office__anchor">Печатный двор</a>
+            </div>
+            <div id="ph_logo" class="small_logo ptr" onclick="location.assign('/offices/house')">
+                <a href="/offices/house" class="office__anchor">Дом печати</a>
+            </div>
+            <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
+                <a href="/offices/world" class="office__anchor">Печатный мир</a>
+            </div>
+        <!--</nav>-->
+    </section>
+</section>
+</page>

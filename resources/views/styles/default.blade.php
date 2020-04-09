@@ -27,6 +27,14 @@ main {
     visibility: hidden;
 }
 
+.ptr {
+    cursor: pointer;
+}
+
+a.grey__link {
+    color: #a5aaaf !important;
+}
+
 /* Header */
 header {
     flex-direction: column;

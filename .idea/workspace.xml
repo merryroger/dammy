@@ -5,23 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b56ba5-b8ee-4f7e-a9b7-632bf3e9ca35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/documents/offices/offices.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/documents/offices/review.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/offices.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/styles/media/contacts.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/styles/offices.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/documents/offices/pechatnik.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/templates/guest/offices/typographer.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/templates/menu/main/default.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/templates/menu/main/footer.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/templates/menu/main/offices.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Menuitem.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Menuitem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Section.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Section.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/MenuitemSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/MenuitemSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/SectionSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SectionSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/office_maps.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/office_maps.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/documents/contacts/central.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/contacts/central.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/documents/contacts/print_house.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/contacts/print_house.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/documents/contacts/print_world.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/contacts/print_world.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/documents/contacts/print_yard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/contacts/print_yard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/guest/contacts.inc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/guest/contacts.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/templates/guest/offices.inc" beforeDir="false" afterPath="$PROJECT_DIR$/resources/templates/guest/offices.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/dammy/about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/dammy/about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/etc/dummy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/etc/dummy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/offices/offices.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/offices/offices.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/offices/review.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/offices/review.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/orders/make_orders.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/orders/make_orders.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ru/menu.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/menu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/styles/contacts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/styles/contacts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/styles/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/styles/default.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/styles/offices.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/styles/offices.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -56,20 +68,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="offices.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/styles/offices.blade.php">
+      <file leaf-file-name="pechatnik.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/documents/offices/pechatnik.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <state relative-caret-position="512">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="offices.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/offices.blade.php">
+        <entry file="file://$PROJECT_DIR$/resources/views/styles/offices.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="768">
+              <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="832">
+              <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -102,13 +123,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/resources/views/styles/errors.blade.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/resources/views/default.blade.php" />
-        <option value="$PROJECT_DIR$/cutom/documents/DocShow.php" />
-        <option value="$PROJECT_DIR$/resources/documents/dammy/about.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/custom/traits/Transcoders.php" />
@@ -119,40 +133,47 @@
         <option value="$PROJECT_DIR$/resources/views/templates/guest/homepage.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_06_081941_create_menuitems_table.php" />
         <option value="$PROJECT_DIR$/resources/lang/ru/menu.inc" />
-        <option value="$PROJECT_DIR$/resources/lang/ru/menu.php" />
         <option value="$PROJECT_DIR$/resources/views/footer.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/header.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2020_04_02_163434_create_sections_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/MenuitemSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/templates/guest/default.blade.php" />
-        <option value="$PROJECT_DIR$/app/Models/Section.php" />
         <option value="$PROJECT_DIR$/resources/views/subpage.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/app/Models/Menuitem.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" />
         <option value="$PROJECT_DIR$/resources/views/styles/media/default.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/styles/default.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php" />
-        <option value="$PROJECT_DIR$/resources/documents/orders/make_orders.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/etc/dummy.xml" />
         <option value="$PROJECT_DIR$/custom/documents/DocShow.php" />
         <option value="$PROJECT_DIR$/public/scripts/office_maps.js" />
         <option value="$PROJECT_DIR$/resources/templates/guest/contacts.inc" />
         <option value="$PROJECT_DIR$/resources/views/contacts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/styles/contacts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/styles/media/contacts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/documents/contacts/print_yard.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/contacts/print_world.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/contacts/print_house.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/contacts/central.xml" />
-        <option value="$PROJECT_DIR$/resources/documents/offices/review.xml" />
         <option value="$PROJECT_DIR$/resources/templates/guest/offices.inc" />
-        <option value="$PROJECT_DIR$/database/seeds/SectionSeeder.php" />
         <option value="$PROJECT_DIR$/resources/views/offices.blade.php" />
+        <option value="$PROJECT_DIR$/resources/documents/contacts/central.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/contacts/print_house.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/contacts/print_world.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/contacts/print_yard.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/dammy/about.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/etc/dummy.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/offices/review.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/orders/make_orders.xml" />
+        <option value="$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml" />
+        <option value="$PROJECT_DIR$/resources/views/styles/contacts.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Section.php" />
+        <option value="$PROJECT_DIR$/resources/lang/ru/menu.php" />
+        <option value="$PROJECT_DIR$/database/seeds/MenuitemSeeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/SectionSeeder.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Models/Menuitem.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" />
+        <option value="$PROJECT_DIR$/resources/views/templates/menu/main/default.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/templates/menu/main/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/templates/guest/offices/typographer.inc" />
+        <option value="$PROJECT_DIR$/resources/views/templates/menu/main/offices.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/styles/default.blade.php" />
         <option value="$PROJECT_DIR$/resources/documents/offices/offices.xml" />
         <option value="$PROJECT_DIR$/resources/views/styles/offices.blade.php" />
+        <option value="$PROJECT_DIR$/resources/documents/offices/pechatnik.xml" />
       </list>
     </option>
   </component>
@@ -279,6 +300,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,27 +462,6 @@
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="contacts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
-              <item name="etc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="documents" type="462c0819:PsiDirectoryNode" />
               <item name="offices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -474,20 +475,7 @@
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
@@ -495,12 +483,6 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
               <item name="ru" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dammy" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
@@ -519,14 +501,15 @@
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="guest" type="462c0819:PsiDirectoryNode" />
+              <item name="offices" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="errors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
@@ -557,6 +540,23 @@
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="guest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="menu" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
@@ -603,7 +603,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -614,16 +613,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Webworks\Dammy\dammy\resources\documents\offices" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\templates\guest\offices" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\templates\menu\main" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\templates\menu" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\styles" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\templates\menu\main" />
       <recent name="D:\Webworks\Dammy\dammy\resources\views" />
       <recent name="D:\Webworks\Dammy\dammy\resources\views\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Webworks\Dammy\dammy\resources\views\styles" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\views\templates" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\documents\offices" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\views\styles\media" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\documents\contacts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -652,12 +652,13 @@
       <workItem from="1585882963315" duration="33905000" />
       <workItem from="1586141950874" duration="27438000" />
       <workItem from="1586229957522" duration="26690000" />
-      <workItem from="1586317274982" duration="25101000" />
+      <workItem from="1586317274982" duration="25701000" />
+      <workItem from="1586403077505" duration="30460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139070000" />
+    <option name="totallyTimeSpent" value="170130000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1058" extended-state="6" />
@@ -693,37 +694,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/services.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="83" column="34" selection-start-line="83" selection-start-column="34" selection-end-line="83" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/traits/Transcoders.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/traits/XMLParsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/custom/documents/Tyrion/TyrionDoc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1722">
@@ -753,89 +723,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/ru/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/templates/guest/offices.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/templates/guest/contacts.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Models/Section.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/MenuitemSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/templates/guest/subpage.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Models/Menuitem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="69" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/orders/make_orders.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="124" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="41" column="27" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/etc/dummy.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/custom/documents/DocShow.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/subpage.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -853,20 +743,6 @@
     <entry file="file://$PROJECT_DIR$/resources/views/templates/guest/default.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/styles/media/default.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -876,13 +752,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/styles/fonts.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/styles/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-17">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/templates/guest/contacts.inc">
       <provider selected="true" editor-type-id="text-editor">
@@ -912,41 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_world.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_house.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/central.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_02_163434_create_sections_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -954,41 +788,205 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/central.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/pechatnik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_house.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_world.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_yard.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/dammy/about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/etc/dummy.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/orders/make_orders.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/styles/contacts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ru/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/SectionSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="28" column="38" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+        <state relative-caret-position="762">
+          <caret line="65" column="66" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
           <folding>
             <element signature="e#7#38#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/dammy/about.xml">
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="96">
+          <caret line="6" column="111" selection-start-line="6" selection-start-column="111" selection-end-line="6" selection-end-column="111" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/contacts/print_yard.xml">
+    <entry file="file://$PROJECT_DIR$/resources/views/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="42" />
+        <state relative-caret-position="432">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/styles/contacts.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/subpage/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/menu/main/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="58" selection-start-line="1" selection-start-column="58" selection-end-line="1" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/menu/main/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/subpage/footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
-          <caret line="74" column="3" lean-forward="true" selection-start-line="67" selection-end-line="85" selection-end-column="1" />
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/offices/review.xml">
+    <entry file="file://$PROJECT_DIR$/resources/views/offices.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Menuitem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="67" column="82" selection-start-line="67" selection-start-column="82" selection-end-line="67" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Models/Section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/MenuitemSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="906">
+          <caret line="261" selection-start-line="261" selection-end-line="261" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/templates/menu/main/offices.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="32" lean-forward="true" selection-start-column="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/documents/DocShow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="944">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/templates/guest/offices/typographer.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/styles/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1002,10 +1000,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/offices.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/documents/offices/review.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="272">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -1018,8 +1016,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/styles/offices.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="768">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/offices/pechatnik.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
         </state>
       </provider>
     </entry>

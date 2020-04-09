@@ -81,8 +81,8 @@ h6.info__col {
 }
 
 #tp_logo {
-    background: transparent url("/images/logo_sign.png") center center no-repeat;
-    background-size: cover;
+    background: #e2e2e2 url("/images/offices/pk_logo.png") center center no-repeat;
+    background-size: 98%;
 }
 
 .map {
