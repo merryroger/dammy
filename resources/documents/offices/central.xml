@@ -1,0 +1,48 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/offices/central</docuri>
+    <returi>/offices</returi>
+    <docref>m2:7</docref>
+    <doctopic>Филиалы</doctopic>
+    <docname>Центральный офис</docname>
+    <doctype>Text</doctype>
+    <docdate>10.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+<h1>Центральный офис</h1>
+<!--<div id="co_logo" class="logo"></div>-->
+<section class="columns">
+    <article class="one__of">
+        <p>В Центральном офисе сосредоточено основное производство и&nbsp;размещены главные производственные мощности
+            Типографии «ДАММИ». Офис <a href="/contacts#central">расположен</a> на&nbsp;проспекте Машиностроителей возле
+            спорткомплекса «Зауралец».
+        </p>
+    </article>
+    <article class="one__of">
+    </article>
+</section>
+<h3 class="make__order">
+    <a href="/make_order">Сделать заказ</a>
+</h3>
+<section class="other__offices">
+    <h2>Другие филиалы «ДАММИ»</h2>
+    <section class="others">
+        <div id="py_logo" class="small_logo ptr" onclick="location.assign('/offices/yard')">
+            <a href="/offices/yard" class="office__anchor">Печатный двор</a>
+        </div>
+        <div id="ph_logo" class="small_logo ptr" onclick="location.assign('/offices/house')">
+            <a href="/offices/house" class="office__anchor">Дом печати</a>
+        </div>
+        <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
+            <a href="/offices/world" class="office__anchor">Печатный мир</a>
+        </div>
+        <div id="tp_logo" class="small_logo ptr" onclick="location.assign('/offices/typographer')">
+            <a href="/offices/typographer" class="office__anchor">Печатник</a>
+        </div>
+    </section>
+</section>
+</page>

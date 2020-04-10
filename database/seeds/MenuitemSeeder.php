@@ -51,7 +51,7 @@ class MenuitemSeeder extends Seeder
                 'purpose' => 'main',
                 'mnemo' => 'contacts',
                 'url' => '/contacts',
-                'section_id' => 7,
+                'section_id' => 8,
                 'created_at' => now(),
                 'updated_at' => now()
             ],
@@ -248,6 +248,20 @@ class MenuitemSeeder extends Seeder
                 'mnemo' => 'offices.typographer',
                 'url' => '/offices/typographer',
                 'section_id' => 6,
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
+                'access_group_id' => 0,
+                'node' => 2,
+                'mode' => 5,
+                'level' => 1,
+                'parent' => 2,
+                'order' => 5,
+                'purpose' => 'offices',
+                'mnemo' => 'offices.central',
+                'url' => '/offices/central',
+                'section_id' => 7,
                 'created_at' => now(),
                 'updated_at' => now()
             ]

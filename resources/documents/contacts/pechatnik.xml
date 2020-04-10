@@ -13,7 +13,7 @@
 </parameters>
 <docheader> </docheader>
 <page number="1">
-    <a name="pechatnik" class="inv"></a>
+    <h6 class="info__col"><a name="typographer" class="inv"></a></h6>
     <div id="pechatnik" class="map"></div>
     <section class="office">
         <aside class="info__hdr">

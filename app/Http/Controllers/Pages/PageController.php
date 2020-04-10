@@ -36,12 +36,15 @@ class PageController extends Controller
             $view = $this->section->view;
             $section_id = $this->section->id;
 
-            /* Menu operations */
-            $menu_access_group = $this->section->retrieveAccessGroup();
+            /* Menu build operations */
+            $menu_access_group = $this->section->retrieveAccessGroup(true);
             $menuset = Menuitem::access_Group($menu_access_group)->validItems(true)->get();
 
             $menuitem = new Menuitem();
             $menu = $menuitem->buildMenu($menuset);
+            $menu_tree = $menu['_tree_'];
+            unset($menu['_tree_']);
+
             $section_ids = $menuitem->buildHierarchy($menuitem, $section_id);
 
             /* Section content retrieving */
@@ -54,6 +57,7 @@ class PageController extends Controller
             return view($this->section->entry_point, compact([
                 'view',
                 'menu',
+                'menu_tree',
                 'contents',
                 'section_ids'
             ]));

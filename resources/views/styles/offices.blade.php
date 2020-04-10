@@ -13,16 +13,10 @@ nav.office__list {
 }
 
 section.other__offices {
-    margin-top: 100px;
     width: 100%;
     flex-direction: column;
     align-items: center;
     display: flex;
-}
-
-.other__offices h2 {
-    font-size: 21pt;
-    line-height: 5;
 }
 
 section.others {
@@ -32,7 +26,6 @@ section.others {
     flex-wrap: wrap;
     display: flex;
 }
-
 
 div.logo {
     margin: 0 10pt 50px;

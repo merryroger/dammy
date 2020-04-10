@@ -18,6 +18,7 @@ return [
     'make_order' => 'Сделать заказ',
     'news' => 'Новости',
     'offices' => 'Филиалы',
+    'offices.central' => 'Центральный офис',
     'offices.house' => 'Дом печати',
     'offices.typographer' => 'Печатник',
     'offices.world' => 'Печатный мир',

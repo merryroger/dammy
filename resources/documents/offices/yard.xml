@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/offices/house</docuri>
+    <returi>/offices</returi>
+    <docref>m2:3</docref>
+    <doctopic>Филиалы</doctopic>
+    <docname>Филиал «Печатный двор»</docname>
+    <doctype>Text</doctype>
+    <docdate>10.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+<h1>«Печатный двор»</h1>
+<div id="py_logo" class="logo"></div>
+<section class="columns">
+    <article class="one__of">
+        <p>«Печатный двор»&nbsp;— это первый филиал Типографии «ДАММИ», основанный в&nbsp;2005&nbsp;году. Он
+            <a href="/contacts#_yard">располагается</a> в&nbsp;центре города, возле гостиницы «Москва», рядом
+            с&nbsp;перекрестком улиц Гоголя и&nbsp;Красина.
+        </p>
+        <p>За&nbsp;время работы филиал накопил богатый опыт в&nbsp;своем профессиональном деле. На&nbsp;этом предприятии
+            трудится слаженная команда, для которой важен каждый клиент, независимо от&nbsp;статуса и&nbsp;объема
+            заказа. Скоропечатня оборудована новейшими печатными машинами и&nbsp;переплетной книжной линией, с&nbsp;помощью
+            чего может принимать к&nbsp;исполнению всевозможные типографические и&nbsp;переплетные работы. Разнообразный
+            выбор продукции для изготовления и&nbsp;индивидуальный подход к&nbsp;каждому заказу приятно удивит клиентов.
+            Опытные специалисты порадуют не&nbsp;только быстрой и&nbsp;качественной работой, но также и&nbsp;уютной
+            атмосферой офиса.
+        </p>
+        <p>В&nbsp;филиале можно заказать профессиональное изготовление книг любого тиража, а&nbsp;также цветную печать
+            лифлетов, буклетов, газет, пакетов, билетов, грамот, магнитов, плакатов, блокнотов, конвертов, флаеров,
+            баннеров, наклеек, визиток, листовок, флагов.
+        </p>
+    </article>
+    <article class="one__of">
+        <p>Дизайн подразумевает индивидуальный подход к&nbsp;разработке макетов любой сложности: бланочной продукции,
+            визиток, листовок, плакатов, коллажей, открыток, дипломов, грамот, наборов этикеток, обработке фотографий
+            на&nbsp;свадьбу.
+        </p>
+        <p>Также производится разработка логотипов, отрисовка, разработка фирменного стиля,
+            редактирование готовых макетов и&nbsp;многое другое. Ещё одна особенность&nbsp;— изготовление макетов
+            оnline&nbsp;— в&nbsp;присутствии заказчика.
+        </p>
+        <p>В&nbsp;«Печатном дворе» выполняется цифровая широкоформатная печать, сканирование, ризография
+            и&nbsp;ксерокопирование бланков, таблиц, журналов, листовок, карточек, билетов и&nbsp;многого другого.
+        </p>
+    </article>
+</section>
+<h3 class="make__order"><a href="/make_order">Сделать заказ</a></h3>
+<section class="other__offices">
+    <h2>Другие филиалы «ДАММИ»</h2>
+    <section class="others">
+        <div id="ph_logo" class="small_logo ptr" onclick="location.assign('/offices/house')">
+            <a href="/offices/house" class="office__anchor">Дом печати</a>
+        </div>
+        <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
+            <a href="/offices/world" class="office__anchor">Печатный мир</a>
+        </div>
+        <div id="tp_logo" class="small_logo ptr" onclick="location.assign('/offices/typographer')">
+            <a href="/offices/typographer" class="office__anchor">Печатник</a>
+        </div>
+    </section>
+</section>
+</page>

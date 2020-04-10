@@ -13,12 +13,12 @@
 </parameters>
 <docheader> </docheader>
 <page number="1">
-    <a name="central" class="inv"></a>
+    <h6 class="info__col"><a name="central" class="inv"></a></h6>
     <div id="central_office" class="map"></div>
     <section class="office">
         <aside class="info__hdr">
             <div id="co_logo" class="logo"></div>
-            <h3>Центральный офис</h3>
+            <h3><a href="/offices/central" class="info__header">Центральный офис</a></h3>
         </aside>
         <section class="columns">
             <article class="info__col">

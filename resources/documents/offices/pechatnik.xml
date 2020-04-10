@@ -5,7 +5,7 @@
     <returi>/offices</returi>
     <docref>m2:6</docref>
     <doctopic>Филиалы</doctopic>
-    <docname>Филиалы «Печатник»</docname>
+    <docname>Филиал «Печатник»</docname>
     <doctype>Text</doctype>
     <docdate>09.04.2020</docdate>
     <encoding>utf-8</encoding>
@@ -18,7 +18,7 @@
 <section class="columns">
     <article class="one__of">
         <p>«Печатник»&nbsp;— это самый новый филиал Типографии «ДАММИ», который открылся 26&nbsp;марта 2020&nbsp;года.
-            Он <a href="/contacts#pechatnik">располагается</a> вблизи зданий Художественного салона, Областной налоговой
+            Он <a href="/contacts#typographer">располагается</a> вблизи зданий Художественного салона, Областной налоговой
             инспекции и&nbsp;Центрального рынка.
         </p>
     </article>
@@ -28,20 +28,19 @@
         </p>
     </article>
 </section>
+<h3 class="make__order"><a href="/make_order">Сделать заказ</a></h3>
 <section class="other__offices">
     <h2>Другие филиалы «ДАММИ»</h2>
     <section class="others">
-        <!--<nav class="office__list">-->
-            <div id="py_logo" class="small_logo ptr" onclick="location.assign('/offices/yard')">
-                <a href="/offices/yard" class="office__anchor">Печатный двор</a>
-            </div>
-            <div id="ph_logo" class="small_logo ptr" onclick="location.assign('/offices/house')">
-                <a href="/offices/house" class="office__anchor">Дом печати</a>
-            </div>
-            <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
-                <a href="/offices/world" class="office__anchor">Печатный мир</a>
-            </div>
-        <!--</nav>-->
+        <div id="py_logo" class="small_logo ptr" onclick="location.assign('/offices/yard')">
+            <a href="/offices/yard" class="office__anchor">Печатный двор</a>
+        </div>
+        <div id="ph_logo" class="small_logo ptr" onclick="location.assign('/offices/house')">
+            <a href="/offices/house" class="office__anchor">Дом печати</a>
+        </div>
+        <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
+            <a href="/offices/world" class="office__anchor">Печатный мир</a>
+        </div>
     </section>
 </section>
 </page>

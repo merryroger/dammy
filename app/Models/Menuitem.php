@@ -46,7 +46,7 @@ class Menuitem extends Model
             if (!$carry)
                 $carry = [];
 
-            $carry[$item->purpose][] = [
+            $carry[$item->purpose][$item->id] = [
                 'id' => $item->id,
                 'node' => $item->node,
                 'mode' => $item->mode,
@@ -54,8 +54,12 @@ class Menuitem extends Model
                 'parent' => $item->parent,
                 'mnemo' => $item->mnemo,
                 'url' => $item->url,
-                'hidden' => $item->hidden,
                 'section_id' => $item->section_id
+            ];
+
+            $carry['_tree_'][$item->node][$item->level][$item->mode][$item->parent] = [
+                'id' => $item->id,
+                'purpose' => $item->purpose
             ];
 
             return $carry;

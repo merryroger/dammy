@@ -163,6 +163,7 @@ nav.menu {
 .menu p {
     margin: 0 20pt;
     color: #444444;
+    border-bottom: 1px solid #f0f0f0;
 }
 
 /* End of title and main menu */
@@ -275,3 +276,30 @@ div.footer {
     color: #ddeeff;
 }
 /* End of footer */
+
+/* Accessories */
+
+div.submenu__lvl_1 {
+    position: absolute;
+    padding: 12px 10pt 15px;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
+    flex-direction: column;
+    display: flex;
+}
+
+.submenu__lvl_1 > a {
+    margin: 2px 5pt;
+    padding: 0 2px;
+    font-size: 11pt;
+}
+
+.off {
+    left: 0;
+    top: 0;
+    z-index: -1;
+    visibility: hidden;
+}
+
+/* End of accessories */

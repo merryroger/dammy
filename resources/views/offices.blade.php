@@ -8,7 +8,7 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
     <style>
         @include('styles.fonts')
-        @include('styles/media/default')
+        @include('styles/media/default')@include('styles/media/offices')
         @include('styles/offices')@include('styles/default')
     </style>
 </head>

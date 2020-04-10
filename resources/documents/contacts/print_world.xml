@@ -13,7 +13,7 @@
 </parameters>
 <docheader> </docheader>
 <page number="1">
-    <a name="print_world" class="inv"></a>
+    <h6 class="info__col"><a name="_world" class="inv"></a></h6>
     <div id="print_world" class="map"></div>
     <section class="office">
         <aside class="info__hdr">

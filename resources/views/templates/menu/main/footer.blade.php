@@ -10,6 +10,10 @@
                 <dl>
                     <dt>{!! @trans("menu.$item[mnemo]") !!}</dt>
                 </dl>
+            @elseif($item['section_id'] == $section_ids[0]['section_id'])
+                <dl>
+                    <dt>✓&nbsp;<a href="{{ $item['url'] }}">{{ @trans("menu.$item[mnemo]") }}</a></dt>
+                </dl>
             @else
                 <a href="{{ $item['url'] }}">{!! @trans("menu.$item[mnemo]") !!}</a>
             @endif

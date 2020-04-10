@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<parameters>
+    <docdtd>tyrion-xml-metadoc</docdtd>
+    <docuri>/offices/house</docuri>
+    <returi>/offices</returi>
+    <docref>m2:4</docref>
+    <doctopic>Филиалы</doctopic>
+    <docname>Филиал «Дом печати»</docname>
+    <doctype>Text</doctype>
+    <docdate>10.04.2020</docdate>
+    <encoding>utf-8</encoding>
+    <pages>1</pages>
+</parameters>
+<docheader> </docheader>
+<page number="1">
+<h1>«Дом печати»</h1>
+<div id="ph_logo" class="logo"></div>
+<section class="columns">
+    <article class="one__of">
+        <p>«Дом печати»&nbsp;— это второй филиал Типографии «ДАММИ». Он <a href="/contacts#_house">
+            расположен</a> в&nbsp;центре города, возле перекрестка улиц Гоголя и&nbsp;Ленина. На&nbsp;этом предприятии
+            трудится слаженная команда, для которой важен каждый клиент, независимо от&nbsp;статуса и&nbsp;объема заказа.
+            Специалисты с&nbsp;большим опытом работы в&nbsp;сфере полиграфии осуществят качественное и&nbsp;быстрое
+            исполнение заказа.
+        </p>
+        <p>Филиал специализируется на&nbsp;ризографии и&nbsp;цифровой печати. Ризография&nbsp;— особый вид недорогой
+            и&nbsp;срочной цифровой печати с&nbsp;тиражированием, которую можно выполнить на&nbsp;разных материалах
+            в&nbsp;течение пяти минут. Цифровой способ печати позволяет получить высокое качество в&nbsp;минимальные
+            сроки. При наличии готового макета тираж среднего размера может быть отпечатан за&nbsp;несколько часов.
+        </p>
+    </article>
+    <article class="one__of">
+        <p>Помимо ризографии и&nbsp;цифровой печати в&nbsp;«Доме печати» можно заказать разработку дизайна продукции
+            и&nbsp;выполнить ксерокопирование, цветное и&nbsp;черно-белое сканирование и&nbsp;печать. Кроме этого
+            выполняется цифровая широкоформатная печать. Для всех видов печати доступна различная постпечатная обработка:
+            подрезка, переплёт на&nbsp;скобу, пружину, клеевой, термо, а&nbsp;также перфорация и&nbsp;нумерация.
+        </p>
+    </article>
+</section>
+<h3 class="make__order"><a href="/make_order">Сделать заказ</a></h3>
+<section class="other__offices">
+    <h2>Другие филиалы «ДАММИ»</h2>
+    <section class="others">
+        <div id="py_logo" class="small_logo ptr" onclick="location.assign('/offices/yard')">
+            <a href="/offices/yard" class="office__anchor">Печатный двор</a>
+        </div>
+        <div id="pw_logo" class="small_logo ptr" onclick="location.assign('/offices/world')">
+            <a href="/offices/world" class="office__anchor">Печатный мир</a>
+        </div>
+        <div id="tp_logo" class="small_logo ptr" onclick="location.assign('/offices/typographer')">
+            <a href="/offices/typographer" class="office__anchor">Печатник</a>
+        </div>
+    </section>
+</section>
+</page>
