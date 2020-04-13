@@ -64,6 +64,12 @@ nav.services {
     border-bottom: 1px solid #cccccc;
 }
 
+.services p {
+    margin-right: 25pt;
+    color: #444444;
+    border-bottom: 1px solid transparent;
+}
+
 span.news__counter {
     position: relative;
     top: -10px;
@@ -281,18 +287,29 @@ div.footer {
 
 div.submenu__lvl_1 {
     position: absolute;
-    padding: 12px 10pt 15px;
+    padding: 12px 0pt 15px;
     background-color: #e8e8e8;
-    border-radius: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
     box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
     flex-direction: column;
     display: flex;
 }
 
 .submenu__lvl_1 > a {
-    margin: 2px 5pt;
-    padding: 0 2px;
+    margin: 0px 0pt;
+    padding: 3px 30px;
+    border-width: 0;
     font-size: 11pt;
+}
+
+.submenu__lvl_1 > a.enabled__link:hover {
+    background-color: #d8d8d8;
+}
+
+.disabled__link {
+    color: #999999 !important;
+    cursor: default;
 }
 
 .off {
@@ -300,6 +317,10 @@ div.submenu__lvl_1 {
     top: 0;
     z-index: -1;
     visibility: hidden;
+}
+
+.on {
+    visibility: visible;
 }
 
 /* End of accessories */

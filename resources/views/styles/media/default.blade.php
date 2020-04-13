@@ -28,7 +28,7 @@
         font-size: 11pt;
     }
 
-    .services a {
+    .services a, .services p {
         font-size: 11pt;
     }
 
@@ -148,7 +148,7 @@
         font-size: 10pt;
     }
 
-    .services a {
+    .services a, .services p {
         font-size: 11pt;
     }
 
@@ -264,7 +264,6 @@
     form#search {
         margin-right: 50pt;
     }
-
 
     #search input, #search button {
         font-size: 10pt;

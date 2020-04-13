@@ -163,7 +163,7 @@ class MenuitemSeeder extends Seeder
                 'purpose' => 'other',
                 'mnemo' => 'news',
                 'url' => '/news',
-                'section_id' => null,
+                'section_id' => 9,
                 'created_at' => now(),
                 'updated_at' => now()
             ],

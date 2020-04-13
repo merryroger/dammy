@@ -11,6 +11,8 @@
         @include('styles/media/default')@include('styles/media/contacts')
         @include('styles/contacts')@include('styles/default')
     </style>
+    <script src="/scripts/utils/common.js"></script>
+    <script src="/scripts/utils/dynamic_menu.js"></script>
     <script src="/scripts/office_maps.js"></script>
 </head>
 <body>

@@ -1,14 +1,7 @@
 <header>
     <nav class="services">
         <section>
-            @foreach($menu['other'] as $item)
-                @switch($item['mnemo'])
-                    @case('news')
-                        <span class="news__counter inv">0</span>
-                    @default
-                    <a href="{{ $item['url'] }}">{{ @trans("menu.$item[mnemo]") }}</a>
-                @endswitch
-            @endforeach
+            @include('templates.menu.service.default')
         </section>
         <section>
             <form id="search">
@@ -30,7 +23,7 @@
                         @include('templates.menu.main.offices')
                     @break
                     @default
-                        @include('templates.menu.main.default')
+                        @include('templates.menu.main.subpages')
                 @endswitch
             </nav>
         </article>

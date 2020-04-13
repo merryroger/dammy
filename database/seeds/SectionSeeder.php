@@ -84,6 +84,15 @@ class SectionSeeder extends Seeder
                 'template' => 'templates.guest.contacts',
                 'created_at' => now(),
                 'updated_at' => now()
+            ],
+            [
+                'name' => 'news',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'news',
+                'template' => 'templates.guest.news',
+                'created_at' => now(),
+                'updated_at' => now()
             ]
         ];
 
