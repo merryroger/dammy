@@ -8,8 +8,8 @@
     <link rel="dns-prefetch" href="https://fonts.gstatic.com/">
     <style>
         @include('styles.fonts')
-        @include('styles/media/default')@include('styles/media/offices')
-        @include('styles/offices')@include('styles/default')
+        @include('styles/media/default')@include('styles/media/news')
+        @include('styles/news')@include('styles/default')
     </style>
     <script src="/scripts/utils/common.js"></script>
     <script src="/scripts/utils/dynamic_menu.js"></script>

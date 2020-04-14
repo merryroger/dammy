@@ -15,7 +15,9 @@ class CreateNewsandeventsTable extends Migration
     {
         Schema::create('newsandevents', function (Blueprint $table) {
             $table->id();
+            $table->string('destination')->unique()->default('');
             $table->timestamps();
+            $table->softDeletes();
         });
 
         (new NewsandeventSeeder())->run();

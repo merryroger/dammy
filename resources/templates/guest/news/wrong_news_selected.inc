@@ -1,22 +1,19 @@
 <?php
 /**
  * Created by: Merry Roger
- * Date: 03.04.2020
+ * Date: 14.04.2020
  */
 
 $this->config = [
-    'blocks' => 2,
+    'blocks' => 1,
     'tags' => [
-        'section',
         'section'
     ],
     'attributes' => [
-        ' class="body announce"',
-        ' class="body orders"'
+        ' class="body headline_news"'
     ],
     'sources' => [
-        'documents/production/product_catalogue_list.xml',
-        'documents/orders/make_orders.xml'
+        'news/nonews/wrong_news.xml'
     ],
     /* It should be used if it`s need to show these elements with determined decoration
     'xslt' => [

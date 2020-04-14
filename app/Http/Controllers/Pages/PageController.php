@@ -24,35 +24,47 @@ class PageController extends Controller
         return $this->showSections($request, "offices.{$subsection}");
     }
 
-    private function getSection($name, $include_hidden = false)
+    protected function getSection($name, $include_hidden = false)
     {
         return Section::guests($include_hidden)->sectionByName($name)->first();
     }
 
-    private function render()
+    protected function &buildMenuStructures()
+    {
+        $menu_access_group = $this->section->retrieveAccessGroup(true);
+        $menuset = Menuitem::access_Group($menu_access_group)->validItems(true)->get();
+
+        $menuitem = new Menuitem();
+        $menu = $menuitem->buildMenu($menuset);
+        $menu['_sids_'] = $menuitem->buildHierarchy($menuitem, $this->section->id);
+
+        return $menu;
+    }
+
+    protected function retrieveSectionContents()
+    {
+        $docShow = new DocShow();
+        $contents = $docShow->retrieveContents($this->section->template);
+        $docShow->__destruct();
+        unset($docShow);
+
+        return $contents;
+    }
+
+    protected function render()
     {
         if ($this->section != null) {
 
             $view = $this->section->view;
-            $section_id = $this->section->id;
 
             /* Menu build operations */
-            $menu_access_group = $this->section->retrieveAccessGroup(true);
-            $menuset = Menuitem::access_Group($menu_access_group)->validItems(true)->get();
-
-            $menuitem = new Menuitem();
-            $menu = $menuitem->buildMenu($menuset);
+            $menu = $this->buildMenuStructures();
             $menu_tree = $menu['_tree_'];
-            unset($menu['_tree_']);
-
-            $section_ids = $menuitem->buildHierarchy($menuitem, $section_id);
+            $section_ids = $menu['_sids_'];
+            unset($menu['_tree_'], $menu['_sids_']);
 
             /* Section content retrieving */
-            $docShow = new DocShow();
-            $contents = $docShow->retrieveContents($this->section->template);
-            $docShow->__destruct();
-
-            unset($docShow);
+            $contents = $this->retrieveSectionContents();
 
             return view($this->section->entry_point, compact([
                 'view',

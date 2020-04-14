@@ -25,7 +25,7 @@ class Menuitem extends Model
 
     public function scopeAccess_Group($query, $access_group)
     {
-        return $query->where('access_group_id', $access_group)->orderBy('order');
+        return $query->where('access_group_id', $access_group)->orderBy('node')->orderBy('level')->orderBy('order');
     }
 
     public function scopeItemById($query, $_id)

@@ -23,6 +23,15 @@ class SectionSeeder extends Seeder
                 'updated_at' => now()
             ],
             [
+                'name' => 'about',
+                'role' => 'guest',
+                'entry_point' => 'templates.guest.default',
+                'gen_view' => 'subpage',
+                'template' => 'templates.guest.about',
+                'created_at' => now(),
+                'updated_at' => now()
+            ],
+            [
                 'name' => 'offices',
                 'role' => 'guest',
                 'entry_point' => 'templates.guest.default',
