@@ -2,7 +2,20 @@
 /* News */
 
 section.headline_news {
-    background-color: #956675;
+    align-items: stretch;
+}
+
+aside.media.collection {
+    min-width: 150px;
+    width: 100%;
+    flex-grow: 1;
+    flex-direction: column;
+    display: flex;
+    background-color: #e8e8e8;
+}
+
+.one__of.news p {
+    color: #484848;
 }
 
 .headline_news h2 {

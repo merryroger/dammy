@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades;
 
 class NewsandeventSeeder extends Seeder
 {
@@ -20,7 +21,7 @@ class NewsandeventSeeder extends Seeder
         ];
 
         foreach ($data as $portion) {
-            DB::table('newsandevents')->insert($portion);
+            Facades\DB::table('newsandevents')->insert($portion);
         }
     }
 }

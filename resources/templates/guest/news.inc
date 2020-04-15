@@ -13,7 +13,7 @@ $this->config = [
         'section'
     ],
     'attributes' => [
-        ' class="news_body'
+        ' class="news_body"'
     ],
     'sources' => [
 
@@ -21,7 +21,7 @@ $this->config = [
     'handler' => [
         'tyrion'
     ],
-    'assembly' => '<section class="body headline_news"><#=newsBody #></section>'
+    'assembly' => '<section class="body headline_news"><aside class="media collection">&nbsp;</aside><#=newsBody #></section>'
     /* It should be used if it`s need to show these elements with determined decoration
     'xslt' => [
         [

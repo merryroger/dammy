@@ -13,6 +13,7 @@ class TyrionDoc
 
     use \custom\traits\XMLParsers;
     use \custom\traits\Transcoders;
+    use \custom\traits\Evaluators;
 
     const ERR_FILE_NOT_FOUND = 0xed01;
     const ERR_FILE_EMPTY_OR_CORRUPTED = 0xed02;

@@ -6,15 +6,15 @@
 
 namespace custom\documents;
 
-
-use custom\documents\Tyrion\TyrionReader;
-
 class DocShow
 {
+
+    use \custom\traits\Evaluators;
 
     protected const REL_DIR = '/../../resources';
     protected const MAX_BLOCKS = 5;
     protected const DUMMY_DOC = 'documents/etc/dummy.xml';
+    protected const DEF_HANDLER = 'tyrion';
 
     protected $base_dir;
     protected $config;
@@ -23,7 +23,7 @@ class DocShow
     public function __construct()
     {
         $this->base_dir = realpath(__DIR__ . $this::REL_DIR);
-        $this->config = NULL;
+        $this->config = null;
         $this->contents = '';
     }
 
@@ -32,56 +32,49 @@ class DocShow
         if ($conf_path) {
             $config_path = $this->base_dir . '/' . join('/', preg_split("%\.%", $conf_path)) . '.inc';
         } else {
-            $config_path = NULL;
+            $config_path = null;
             return;
         }
 
         if ($config_path && file_exists($config_path)) {
             include($config_path);
         }
-
     }
 
-    protected function &tyrionRender($page = 1)
+    protected function blockRender($page = 1)
     {
+        $blocks = [];
         $attr = '';
         $src = $this::DUMMY_DOC;
-        $blocks = [];
+        $handler = $this::DEF_HANDLER;
 
-        $tyrion = new TyrionReader();
+        $provider = app($handler);
 
         for ($block = 0; $block < $this->config['blocks']; $block++) {
             $tag = ($this->config['tags'][$block]) ? $this->config['tags'][$block] : 'section';
             $attr = ($this->config['attributes'][$block]) ? $this->config['attributes'][$block] : $attr;
             $src = ($this->config['sources'][$block]) ? $this->config['sources'][$block] : $src;
-            $src = (!file_exists($this->base_dir . '/' . $src)) ? $this::DUMMY_DOC : $src;
+            $src = (file_exists($this->base_dir . '/' . $src)) ? $src : $this::DUMMY_DOC;
             $xslt = (isset($this->config['xslt']) && isset($this->config['xslt'][$block])) ? $this->config['xslt'][$block] : [];
 
-            $tyrion->loadDocument($src, $this->base_dir, $page, $xslt);
+            $provider->load($src, $this->base_dir, $page, $xslt);
 
-            $blocks[$block] = "<{$tag}{$attr}>{$tyrion->getContents()}</{$tag}>";
+            $blocks[$block] = "<{$tag}{$attr}>{$provider->getContents()}</{$tag}>";
         }
 
-        $tyrion->__destruct();
-
-        unset($tyrion);
-
-        return $blocks;
+        $this->contents = join('', $blocks);
+        unset($blocks);
     }
 
     protected function render($page = 1): void
     {
-        $blocks = [];
-
         if (!$this->config || $this->config['blocks'] < 1) {
             return;
         } elseif ($this->config['blocks'] > $this::MAX_BLOCKS) {
             $this->config['blocks'] = $this::MAX_BLOCKS;
         }
 
-        $blocks = $this->tyrionRender($page);
-        $this->contents = join('', $blocks);
-        unset($blocks);
+        $this->blockRender($page);
     }
 
     public function retrieveContents($conf_path = '', $page = 1): string
@@ -95,6 +88,5 @@ class DocShow
     public function __destruct()
     {
         unset($this->config, $this->contents);
-        // TODO: Implement __destruct() method.
     }
 }

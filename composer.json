@@ -40,6 +40,7 @@
             "database/seeds",
             "database/factories",
             "custom/documents",
+            "custom/interfaces",
             "custom/traits"
         ]
     },
