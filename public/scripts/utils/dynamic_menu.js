@@ -52,7 +52,7 @@ function hidesubmenu(smu, level = -1) {
     if (level == 1 && menu_click_listener != null) {
         document.removeEventListener('click', menu_click_listener, true);
         menu_click_listener = null;
-        document.removeEventListener('pountermove', menu_move_listener, true);
+        document.removeEventListener('pointermove', menu_move_listener, true);
         menu_move_listener = null;
     }
 }
