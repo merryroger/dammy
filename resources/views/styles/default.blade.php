@@ -124,6 +124,13 @@ form#search {
     border-left: 1px solid #aaaaaa;
     border-top: 1px solid #aaaaaa;
 }
+
+.strut {
+    width: 20pt;
+    height: 25px;
+    outline: none;
+}
+
 /* End of line of controls */
 
 /* Title and main menu */
@@ -157,6 +164,7 @@ nav.menu {
     justify-content: center;
     align-items: center;
     display: flex;
+    white-space: nowrap;
 }
 
 .menu a {
@@ -190,6 +198,7 @@ h1 {
 
 .announce nav {
     display: flex;
+    white-space: nowrap;
 }
 
 .body a {

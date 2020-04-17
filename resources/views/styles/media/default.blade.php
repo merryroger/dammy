@@ -17,7 +17,7 @@
     }
 
     form#search {
-        margin-right: 50pt;
+        margin-right: 30pt;
     }
 
     #search input {
@@ -141,7 +141,7 @@
     }
 
     form#search {
-        margin-right: 50pt;
+        margin-right: 30pt;
     }
 
     #search input, #search button {
@@ -262,7 +262,7 @@
     }
 
     form#search {
-        margin-right: 50pt;
+        margin-right: 30pt;
     }
 
     #search input, #search button {

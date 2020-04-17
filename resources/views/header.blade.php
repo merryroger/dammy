@@ -5,8 +5,11 @@
         </section>
         <section>
             <form id="search">
+                <div class="strut"></div>
+                @csrf
                 <input type="text" id="search__text" name="search__text" value="" tabindex="1"/>
                 <button type="button" tabindex="2">Найти</button>
+                <div class="strut"></div>
             </form>
         </section>
     </nav>

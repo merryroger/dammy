@@ -12,7 +12,10 @@
         @include('styles/offices')@include('styles/default')
     </style>
     <script src="/scripts/utils/common.js"></script>
+    <script src="/scripts/utils/md5.js"></script>
+    <script src="/scripts/utils/dummy.js"></script>
     <script src="/scripts/utils/dynamic_menu.js"></script>
+    <script src="/scripts/utils/ajax.js"></script>
 </head>
 <body>
     <a name="top"></a>

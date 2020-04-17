@@ -1,9 +1,6 @@
-'use strict'
+'use strict';
 
 let _setup = [];
-let _mmt = null;
-let _mT = null;
-let _mTHandler = 0;
 
 function init() {
 
@@ -14,8 +11,6 @@ function init() {
     }
 
     _setup = [];
-    _mmt = mainMoveTracker;
-    document.addEventListener('pointermove', _mmt);
 }
 
 function getCoordsRect(elem) {
@@ -35,27 +30,8 @@ function getCoordsRect(elem) {
     return {top: etop, left: eleft, height: cr.height, width: cr.width};
 }
 
-function whatsUnderPointer() {
-    let target = null;
-
-    if(_mT.closest('div') != null) {
-        target = _mT.closest('div');
-      //  console.log(target);
-    }
-
-    _mTHandler = 0;
-}
-
-function mainMoveTracker(e) {
-    _mT = e.target;
-
-    if (_mTHandler == 0) {
-        _mTHandler = setTimeout(whatsUnderPointer, 200);
-    }
-}
-
 function shut() {
-    document.removeEventListener('pointermove', _mmt);
+    //
 }
 
 onload = init;

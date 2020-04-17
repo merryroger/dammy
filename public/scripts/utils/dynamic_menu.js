@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 let menu_click_listener = null;
 let menu_move_listener = null;
@@ -8,6 +8,11 @@ let chkBlurHandler = 0;
 let shutSMUHandler = 0;
 
 function showsubmenu(src, node, level, mode, parent) {
+
+    if(menu_containers[level] != undefined) {
+        return;
+    }
+
     let rect = getCoordsRect(src);
     let smu_id = `n${node}l${level}m${mode}p${parent}`;
     let smu = document.querySelector(`#${smu_id}`);
@@ -102,7 +107,7 @@ function checkSubmenuBlur() {
     }
 
     if (needShut && shutSMUHandler == 0) {
-        shutSMUHandler = setTimeout(shutAbandonedSubmenus, 500);
+        shutSMUHandler = setTimeout(shutAbandonedSubmenus, 1000);
     } else if (!needShut && shutSMUHandler != 0) {
         clearTimeout(shutSMUHandler);
         shutSMUHandler = 0;

@@ -51,6 +51,10 @@ div.small_logo {
     font-size: 11pt;
 }
 
+a.office__anchor {
+    white-space: nowrap;
+}
+
 #py_logo {
     background: transparent url("/images/offices/pd_logo.png") center top no-repeat;
     background-size: contain;
