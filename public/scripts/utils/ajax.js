@@ -20,7 +20,7 @@ let AJAX = (function () {
         if (window.XMLHttpRequest) {
             _xhr = new XMLHttpRequest();
             if (_xhr.overrideMimeType)
-                _xhr.overrideMimeType('text/xml');
+                _xhr.overrideMimeType('application/json;charset=UTF-8');
 
             return _xhr;
         }
