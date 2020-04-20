@@ -294,6 +294,47 @@ div.footer {
 
 /* Accessories */
 
+div#float_panel {
+    position: absolute;
+    padding: 16px 20pt;
+    text-align: center;
+    max-width: 200px;
+    background-color: #e8e8e8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 4px 4px 6px rgba(0,0,0,0.4);
+}
+
+.float__message p {
+    margin: 0 0 20px 0;
+    padding: 0;
+    text-align: left;
+    font-size: 10pt;
+}
+
+.float__message button {
+    padding: 0 20pt 1px;
+    height: 25px;
+    border-left: 1px solid #d0d0d0;
+    border-top: 1px solid #d0d0d0;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #33cc33;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 10pt;
+    cursor: pointer;
+    outline: none;
+}
+
+.float__message button:active {
+    //padding: 1px 20pt 0;
+    border-left: 1px solid #bbbbbb;
+    border-top: 1px solid #bbbbbb;
+    border-right: 1px solid #d0d0d0;
+    border-bottom: 1px solid #66ff66;
+    background-color: #f0f0f0;
+}
+
 div.submenu__lvl_1 {
     position: absolute;
     padding: 12px 0pt 15px;

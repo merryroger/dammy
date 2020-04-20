@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 Route::name('guest')->group(function () {
     Route::namespace('Auth')->group(function () {
         Route::post('/auth', 'AuthController@listenRequest')->name('.auth.request.listen');
+        Route::get('/auth', 'AuthController@checkAuthCode')->name('.auth.check.code');
     });
 
     Route::namespace('Pages')->group(function () {
