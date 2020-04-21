@@ -312,6 +312,10 @@ div#float_panel {
     font-size: 10pt;
 }
 
+.float__message a {
+    margin: 0;
+}
+
 .float__message button {
     padding: 0 20pt 1px;
     height: 25px;
@@ -327,7 +331,6 @@ div#float_panel {
 }
 
 .float__message button:active {
-    //padding: 1px 20pt 0;
     border-left: 1px solid #bbbbbb;
     border-top: 1px solid #bbbbbb;
     border-right: 1px solid #d0d0d0;

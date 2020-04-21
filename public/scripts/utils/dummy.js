@@ -34,7 +34,7 @@ function showResponse(rsp) {
             float_message_panel = strut.closest('section').querySelector('#float_panel');
         }
 
-        float_message_panel.innerHTML = rsp.split('&amp;').join('&');
+        float_message_panel.innerHTML = unamp(rsp);
         float_message_panel.style.left = (rect.left + 10) + 'px';
         float_message_panel.style.top = (rect.top + 30) + 'px';
         float_message_panel.classList.remove('off');

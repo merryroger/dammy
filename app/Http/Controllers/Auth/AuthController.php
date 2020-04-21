@@ -17,12 +17,27 @@ class AuthController extends Controller
     public function checkAuthCode(Request $request)
     {
         $rq_data = $request->request->all();
-        if($rq_data['type'] && $rq_data['code']) {
+
+        if (isset($rq_data['type']) && isset($rq_data['code'])) {   // Checking necessary request parameters
+
             $key = base64_decode($rq_data['code']);
-            if(Cache::has($key)) {
-                $id = Cache::pull($key);
-                $user = User::valid()->find($id)->getAttributes();
-                dd($user);
+            $action = strtolower($rq_data['type']);
+
+            if (Cache::has($key)) {                                 // Checking presence of the key in our cache
+                $user_id = Cache::pull($key);
+                $user_model = User::valid()->find($user_id);        // Trying to pick user`s data as model
+
+                if ($user_model != null) {                          // All the next actions for true user only
+                    $session = $request->session();
+
+                    switch ($action) {
+                        case 'authentication':
+                            $this->prepareSession($user_model, $session);
+                            return redirect()->route('desktop');
+                        default:
+                    }
+                    dd($user_model);
+                }
             }
         }
 
@@ -33,8 +48,10 @@ class AuthController extends Controller
     {
         $_response = [];
         if ($request->method() == 'POST') {
-
-            if (User::valid()->count() > 0) {
+            if ($request->session()->has('user')) {
+                $_response['message_panel'] = view('services.auth_already_exists')->render();
+                $this->retcode = 303;
+            } elseif (User::valid()->count() > 0) {
                 $user = $this->findUser(User::valid()->get(), $request->request->all());
                 if ($user && $user->email) {
                     $user->auth_type = 'authentication';
@@ -53,6 +70,29 @@ class AuthController extends Controller
         $_response['retcode'] = $this->retcode;
 
         return response()->json($_response);
+    }
+
+    public function logoff(Request $request)
+    {
+        if ($request->session()->exists('user')) {
+            $request->session()->forget('user');
+        }
+
+        return redirect()->route('guest.lvl1.sections');
+    }
+
+    protected function prepareSession($model, $session)
+    {
+        $user = collect($model)->map(function ($value, $key) {
+            switch ($key) {
+                case 'roles':
+                    return preg_split("/,/", $value);
+                default:
+                    return $value;
+            }
+        })->only(['id', 'name', 'email', 'roles', 'userdir'])->all();
+
+        $session->put('user', $user);
     }
 
     protected function findUser($userset, $rq_params)
