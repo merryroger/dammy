@@ -5,22 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b56ba5-b8ee-4f7e-a9b7-632bf3e9ca35" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/scripts/desktop/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/desktop/desktop.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/services/auth_already_exists.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/session.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/utils/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/utils/common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/utils/dummy.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/utils/dummy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ru/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ru/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/mail/auth_request.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/mail/auth_request.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/styles/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/styles/default.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -82,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/scripts/desktop/common.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="608">
@@ -90,6 +76,24 @@
               <folding>
                 <element signature="e#5#11#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Authorized.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -156,7 +160,6 @@
         <option value="$PROJECT_DIR$/resources/views/offices.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/subpage.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/header.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" />
         <option value="$PROJECT_DIR$/resources/lang/en/auth.php" />
         <option value="$PROJECT_DIR$/resources/lang/ru/common.php" />
         <option value="$PROJECT_DIR$/resources/views/services/auth_mail_sent.blade.php" />
@@ -184,6 +187,7 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Desktop/DesktopController.php" />
         <option value="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" />
         <option value="$PROJECT_DIR$/public/scripts/desktop/common.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" />
       </list>
     </option>
   </component>
@@ -784,12 +788,12 @@
       <workItem from="1587142400861" duration="1079000" />
       <workItem from="1587208531118" duration="42000" />
       <workItem from="1587352748378" duration="35928000" />
-      <workItem from="1587439300556" duration="23816000" />
+      <workItem from="1587439300556" duration="25372000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="389882000" />
+    <option name="totallyTimeSpent" value="391438000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1058" extended-state="6" />
@@ -857,13 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/NewsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1015,20 +1012,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="77" column="8" selection-start-line="77" selection-start-column="8" selection-end-line="77" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/ru/auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -1110,7 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="9" column="56" lean-forward="true" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
+          <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1145,6 +1128,30 @@
           <folding>
             <element signature="e#5#11#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#46#82#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
         </state>
       </provider>
     </entry>

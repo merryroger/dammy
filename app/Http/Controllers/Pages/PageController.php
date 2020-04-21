@@ -15,8 +15,18 @@ class PageController extends Controller
 
     public function showSections(Request $request, $section = '__root__')
     {
+        $ourPatient = true;
+
+        if ($request->session()->has('user')) {
+            $user = $request->session()->get('user');
+
+            if (preg_grep("/^(master|admin|manager)$/", $user['roles'])) {
+                $ourPatient = false;
+            }
+        }
+
         $this->section = $this->getSection($section, true);
-        return $this->render();
+        return ($this->section == null && !$ourPatient) ? redirect()->route('desktop') : $this->render();
     }
 
     public function showOffice(Request $request, $subsection = '')
