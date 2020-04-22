@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0b56ba5-b8ee-4f7e-a9b7-632bf3e9ca35" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/public/scripts/desktop/classes/component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scripts/desktop/classes/desktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scripts/desktop/classes/transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/scripts/desktop/desktop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/Desktop.application" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/objects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ru/desktop.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/desktop/main_menu.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/scripts/desktop/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/desktop/common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/desktop/desktop.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/desktop/desktop.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,36 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dummy.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/utils/dummy.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
-              <folding>
-                <element signature="e#45#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="56" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DesktopController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Desktop/DesktopController.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,38 +42,62 @@
       <file leaf-file-name="desktop.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/desktop/desktop.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+            <state relative-caret-position="272">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/desktop/common.js">
+      <file leaf-file-name="main_menu.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/desktop/main_menu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-              <folding>
-                <element signature="e#5#11#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+      <file leaf-file-name="objects.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/objects.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state relative-caret-position="32">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Authorized.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
+      <file leaf-file-name="desktop.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/desktop/desktop.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="528">
+              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="component.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transport.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/transport.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktop.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/desktop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -101,8 +105,17 @@
       <file leaf-file-name="default.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+            <state relative-caret-position="80">
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="desktop.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/ru/desktop.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -137,12 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/custom/documents/Tyrion/TyrionDocumentProvider.php" />
-        <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/custom/documents/Tyrion/TyrionDoc.php" />
-        <option value="$PROJECT_DIR$/custom/documents/DocShow.php" />
-        <option value="$PROJECT_DIR$/custom/traits/Evaluators.php" />
-        <option value="$PROJECT_DIR$/custom/documents/extDocShow.php" />
         <option value="$PROJECT_DIR$/resources/news/201911/event_20191112_12-00-00.xml" />
         <option value="$PROJECT_DIR$/resources/views/styles/media/news.blade.php" />
         <option value="$PROJECT_DIR$/resources/templates/guest/news.inc" />
@@ -180,14 +187,20 @@
         <option value="$PROJECT_DIR$/public/scripts/utils/common.js" />
         <option value="$PROJECT_DIR$/public/scripts/utils/dummy.js" />
         <option value="$PROJECT_DIR$/resources/views/styles/default.blade.php" />
-        <option value="$PROJECT_DIR$/public/scripts/desktop/desktop.js" />
         <option value="$PROJECT_DIR$/public/scripts/utils/ajax.js" />
-        <option value="$PROJECT_DIR$/resources/views/desktop/desktop.blade.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Desktop/DesktopController.php" />
-        <option value="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" />
-        <option value="$PROJECT_DIR$/public/scripts/desktop/common.js" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php" />
+        <option value="$PROJECT_DIR$/public/scripts/desktop/common.js" />
+        <option value="$PROJECT_DIR$/resources/lang/ru/desktop.php" />
+        <option value="$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php" />
+        <option value="$PROJECT_DIR$/public/scripts/desktop/classes/desktop.js" />
+        <option value="$PROJECT_DIR$/public/scripts/desktop/classes/transport.js" />
+        <option value="$PROJECT_DIR$/public/scripts/desktop/desktop.js" />
+        <option value="$PROJECT_DIR$/resources/views/desktop/desktop.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/desktop/main_menu.blade.php" />
+        <option value="$PROJECT_DIR$/public/scripts/desktop/classes/component.js" />
+        <option value="$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/objects.xml" />
       </list>
     </option>
   </component>
@@ -314,6 +327,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -507,12 +521,33 @@
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="2310408a63388fe57e3a4177168a8798" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
@@ -648,6 +683,14 @@
               <item name="dammy" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="desktop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dammy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dammy" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -723,7 +766,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -735,17 +777,17 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\desktop" />
+      <recent name="D:\Webworks\Dammy\dammy\public\scripts\desktop\classes" />
+      <recent name="D:\Webworks\Dammy\dammy\public\scripts\desktop" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\lang\ru" />
+      <recent name="D:\Webworks\Dammy\dammy\resources\views\services" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Webworks\Dammy\dammy\resources\views\templates\menu\main" />
       <recent name="D:\Webworks\Dammy\dammy\resources\views" />
       <recent name="D:\Webworks\Dammy\dammy\resources\views\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Webworks\Dammy\dammy\resources\views\services" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\views\mail" />
-      <recent name="D:\Webworks\Dammy\dammy\resources\lang\ru" />
-      <recent name="D:\Webworks\Dammy\dammy\public\scripts\utils" />
-      <recent name="D:\Webworks\Dammy\dammy\custom\traits" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -788,12 +830,13 @@
       <workItem from="1587142400861" duration="1079000" />
       <workItem from="1587208531118" duration="42000" />
       <workItem from="1587352748378" duration="35928000" />
-      <workItem from="1587439300556" duration="25372000" />
+      <workItem from="1587439300556" duration="25967000" />
+      <workItem from="1587524812894" duration="27307000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="391438000" />
+    <option name="totallyTimeSpent" value="419340000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="1058" extended-state="6" />
@@ -829,58 +872,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/contacts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/news.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/offices.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/subpage.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2020_04_13_151948_create_newsandevents_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/templates/menu/main/offices.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/lang/en/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/utils/dynamic_menu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/services/auth_mail_sent.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -900,13 +891,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/documents/production/product_catalogue_list.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/documents/dammy/about.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/lang/ru/common.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -941,9 +925,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,9 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="57" column="45" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-          <folding>
-            <element signature="e#28#63#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,9 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding>
-            <element signature="e#7#52#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1033,11 +1008,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-768" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/header.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
@@ -1054,7 +1025,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="736">
           <caret line="51" column="80" selection-start-line="51" selection-start-column="80" selection-end-line="51" selection-end-column="80" />
           <folding>
             <element signature="e#45#81#0#PHP" expanded="true" />
@@ -1064,7 +1035,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/utils/dummy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
+        <state relative-caret-position="320">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
@@ -1076,17 +1047,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/styles/default.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="363" column="30" lean-forward="true" selection-start-line="363" selection-start-column="30" selection-end-line="363" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/utils/common.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/styles/fonts.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/NewsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
@@ -1097,6 +1092,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/styles/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="346" column="44" lean-forward="true" selection-start-line="346" selection-start-column="44" selection-end-line="346" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ru/desktop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/desktop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/Desktop.application">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/documents/dammy/about.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" lean-forward="true" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Desktop/DesktopController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
@@ -1104,54 +1137,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/styles/fonts.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/styles/desktop/default.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/desktop/main_menu.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        <state relative-caret-position="64">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/desktop/desktop.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+        <state relative-caret-position="272">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/common.js">
+    <entry file="file://$PROJECT_DIR$/resources/applications/2310408a63388fe57e3a4177168a8798/objects.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-          <folding>
-            <element signature="e#5#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="32">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/NewsController.php">
+    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/desktop.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#46#82#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="528">
+          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authorized.php">
+    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/transport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="528">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Pages/PageController.php">
+    <entry file="file://$PROJECT_DIR$/public/scripts/desktop/classes/component.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>
